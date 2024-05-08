@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+/* nav{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+} */
+nav > img{
+    height: 15vh;
+    width: 16vw;
+    padding: 18px 69px;
+    background-color: white;
+
+}
+div > ul > li{
+    display: inline-flex;
+    position: relative;
+    bottom: 10vh;
+    left: 60vh;
+
+}
+.home{
+    color: #FA4A0C;
+    position: relative;
+    left: 50vw;
+    top: -80px;
+}
+.home:hover{
+    cursor: pointer;
+    /* color: #FA4A0C; */
+}
+.prod{
+    position: relative;
+    left: 57vw;
+    top: -80px;
+}
+.prod:hover{
+    cursor: pointer;
+    color: #FA4A0C;
+}
+.faq{
+    position: relative;
+    left: 64vw;
+    top: -80px;
+}
+.faq:hover{
+    cursor: pointer;
+    color: #FA4A0C;
+}
+.con{
+    position: relative;
+    left: 71vw;
+    top: -80px;
+}
+.con:hover{
+    cursor: pointer;
+    color: #FA4A0C;
+}
+.bg{
+    width: 1258px;
+    height: 500px;
+    border: 2px solid yellow;
+    position: relative;
+    top: -20px;
+}
+.h1{
+    position: relative;
+    bottom: 78vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+h2{
+    position: relative;
+    bottom: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+h3{
+    position: relative;
+    bottom: 73vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+h4{
+    position: relative;
+    bottom: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+.play{
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(217, 67, 3);
+    color: white;
+    position: relative;
+    left: 40vw;
+    bottom: 62vh;
+    padding: 11px 30px;
+}
+.play:hover{
+    cursor: pointer;
+    background-color: gold;
+    transition: 0.4s ease;
+}
+.app_store{
+    border: 1px solid white;
+    border-radius: 25px;
+    background: none;
+    /* background-color: rgb(217, 67, 3); */
+    color: white;
+    position: relative;
+    left: 42vw;
+    bottom: 62vh;
+    padding: 11px 30px;
+}
+.app_store:hover{
+    cursor: pointer;
+    background-color: gold;
+    transition: 0.4s ease;
+}
+.phone1{
+    height: 70vh;
+    width: 35vw;
+    position: relative;
+    bottom: 60vh;
+    left: 25.3vw;
+}
+.phone2{
+    height: 70vh;
+    width: 35vw;
+    position: relative;
+    bottom: 50vh;
+    left: 3vw;
+}
+.h{
+    width: 60vw;
+    position: relative;
+    left: 20vw;
+    bottom: 40vh;
+    color: gray;
+}
+.page2_header{
+    position: relative;
+    bottom: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 500;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 80vw;
+    margin: auto;
+    color: rgb(6, 5, 5);
+    /* justify-content: center;
+    align-items: center; */
+}
+.phone3{
+    position: relative;
+    top: -22vh;
+}
+.phone3 img{
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+.l1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: orangered;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+.l2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: #252B42;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+.l3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #737373;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+.l4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #737373;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+.phone4{
+    position: relative;
+    top: -22vh;
+    left: -2vw;
+}
+.phone4 img{
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+.para2{
+    margin-left: 40px;
+}
+.phone5{
+    position: relative;
+    top: -22vh;
+}
+.phone5 img{
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+.download{
+    width: 100%;
+    height: 600px;
+    /* background-image: url(images/bg2.png); */
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3) ), url(images/bg2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+}
+.download h1{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 130px;
+}
+.download p{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 130px;
+}
+.download button{
+    width: 220px;
+    height: 55px;
+    border-radius: 20px;
+    color: white;
+    font-size: 22px;
+    margin: 20px;
+    box-shadow: 0px 0px 20px 2px rgba(0,0,0,0.6);
+}
+.b1{
+    background: orangered;
+    border: none;
+    position: relative;
+    left: 30vw;
+    top: 190px;
+}
+.b2{
+    background: none;
+    border: 2px solid white;
+    color: white;
+    position: relative;
+    left: 30vw;
+    top: 190px;
+}
+.b1:hover{
+    cursor: pointer;
+    background-color: gold;
+    transition: 0.4s ease;
+}
+.b2:hover{
+    cursor: pointer;
+    background-color: gold;
+    transition: 0.4s ease;
+}
+footer > div > img{
+    height: 15vh;
+    width: 16vw;
+    padding: 18px 69px;
+    background-color: white;
+}
+footer > p{
+    position: relative;
+    bottom: 15px;
+}
